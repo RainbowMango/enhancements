@@ -165,6 +165,10 @@ updates.
 [documentation style guide]: https://github.com/kubernetes/community/blob/master/contributors/guide/style-guide.md
 -->
 
+There is no conformance guarantee for metrics emitted in the Kubernetes control-plane.
+This Kubernetes Enhancement Proposal (KEP) proposes a strategy and framework for programmatically ensure all metrics
+ follow the standard and best practice.
+
 ## Motivation
 
 <!--
@@ -175,6 +179,8 @@ demonstrate the interest in a KEP within the wider Kubernetes community.
 
 [experience reports]: https://github.com/golang/go/wiki/ExperienceReports
 -->
+
+
 
 ### Goals
 
